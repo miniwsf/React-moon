@@ -1,0 +1,30 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  max-width: 1080px;
+  background: url("../images/back.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.content{
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.wish-word{
+  width:60%;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wish-title{
+  text-align: center;
+}

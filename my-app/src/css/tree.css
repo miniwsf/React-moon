@@ -1,0 +1,11 @@
+.tree{
+    width:100%;
+    position: relative;
+}
+
+.tree-img{
+    width:60%;
+    display: block;
+    margin-top:80%;
+}
+
