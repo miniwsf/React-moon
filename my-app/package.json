@@ -12,5 +12,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.0",
+    "rc-tween-one": "^1.5.5"
   }
 }

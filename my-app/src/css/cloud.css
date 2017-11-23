@@ -5,16 +5,38 @@
     left:0;
     margin-top:3%;
     margin-left:2%;
-/*    animation:myfirst 60s linear 5s infinite alternate;
-    -moz-animation:myfirst 60s linear 5s infinite alternate;
-    -webkit-animation:myfirst 60s linear 5s infinite alternate;
-    -o-animation:myfirst 60s linear 5s infinite alternate;*/
 }
 
-.cloud-img{
+.cloud_img_1{
     width:14%;
     display: block;
+    background: url("../images/cloud.png") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 14%;
+    position: relative;
+    z-index:4;
 }
+
+.cloud_img_2{
+    width:14%;
+    display: block;
+    background: url("../images/cloud_1.png") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 14%;
+    position: relative;
+    z-index:4;
+}
+
+.cloud_img_3{
+    width:14%;
+    display: block;
+    background: url("../images/cloud_2.png") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 14%;
+    position: relative;
+    z-index:4;
+}
+
 
 .cloud_2{
     width:100%;
@@ -23,10 +45,6 @@
     left:0;
     margin-top:4%;
     margin-left:20%;
-/*    animation:myfirst 60s linear 20s infinite alternate;
-    -moz-animation:myfirst 60s linear 20s infinite alternate;
-    -webkit-animation:myfirst 60s linear 20s infinite alternate;
-    -o-animation:myfirst 60s linear 20s infinite alternate;*/
 }
 
 .cloud_3{
@@ -36,10 +54,6 @@
     left:0;
     margin-top:4%;
     margin-left:50%;
-/*    animation:myfirst 60s linear 15s infinite alternate;
-    -moz-animation:myfirst 60s linear 15s infinite alternate;
-    -webkit-animation:myfirst 60s linear 15s infinite alternate;
-    -o-animation:myfirst 60s linear 15s infinite alternate;*/
 }
 
 .cloud_4{
@@ -49,44 +63,4 @@
     left:0;
     margin-top:5%;
     margin-left:40%;
-    /*animation:myfirst 60s linear 30s infinite alternate;
-    -moz-animation:myfirst 60s linear 30s infinite alternate;
-    -webkit-animation:myfirst 60s linear 30s infinite alternate;
-    -o-animation:myfirst 60s linear 30s infinite alternate;*/
-}
-
-@keyframes myfirst
-{
-    0%   {left:0;}
-    25%  {left:5%;}
-    50%  {left:10%;}
-    75%  {left:5%;}
-    100% {left:0%;}
-}
-
-@-moz-keyframes myfirst /* Firefox */
-{
-    0%   {background:red; left:0px; top:0px;}
-    25%  {background:yellow; left:200px; top:0px;}
-    50%  {background:blue; left:200px; top:200px;}
-    75%  {background:green; left:0px; top:200px;}
-    100% {background:red; left:0px; top:0px;}
-}
-
-@-webkit-keyframes myfirst /* Safari and Chrome */
-{
-    0%   {background:red; left:0px; top:0px;}
-    25%  {background:yellow; left:200px; top:0px;}
-    50%  {background:blue; left:200px; top:200px;}
-    75%  {background:green; left:0px; top:200px;}
-    100% {background:red; left:0px; top:0px;}
-}
-
-@-o-keyframes myfirst /* Opera */
-{
-    0%   {background:red; left:0px; top:0px;}
-    25%  {background:yellow; left:200px; top:0px;}
-    50%  {background:blue; left:200px; top:200px;}
-    75%  {background:green; left:0px; top:200px;}
-    100% {background:red; left:0px; top:0px;}
 }
